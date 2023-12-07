@@ -1,0 +1,12 @@
+                    .offset(x: width * cos(angle),
+                            y: width * sin(angle))
+                    .foregroundColor(strokeColor)
+            }
+            text
+                .foregroundColor(textColor)
+        }
+    }
+    
+    enum Quality: CGFloat {
+        case low = 5
+        case regular = 10
